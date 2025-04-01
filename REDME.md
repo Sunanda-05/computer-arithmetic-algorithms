@@ -37,7 +37,7 @@ The non-restoring division algorithm is used for dividing signed binary numbers 
 3. Perform signed binary multiplication using a 2's complement method.
 4. Extract the final product from the accumulator.
 
-📌 **Code File**: `booth_multiplication.c`
+📌 **Code File**: `booth_array.c`
 
 ### Non-Restoring Division: Steps
 
@@ -46,7 +46,7 @@ The non-restoring division algorithm is used for dividing signed binary numbers 
 3. Perform left shifts and conditional additions/subtractions.
 4. Determine the quotient and remainder based on final values.
 
-📌 **Code File**: `non_restoring_division.c`
+📌 **Code File**: `non_restoring_array.c`
 
 ---
 
@@ -78,7 +78,9 @@ Enter the multiplier: -3
 Binary multiplication result: -15
 ```
 
-📌 **Example Image**: ![Booth's Multiplication Example](images/booth_example.png)
+📌 **Example Image**: 
+
+![Booth's Multiplication Example](images/booth_example.png)
 
 ### Non-Restoring Division Example
 
@@ -89,7 +91,9 @@ Quotient: 4
 Remainder: 1
 ```
 
-📌 **Example Image**: ![Non-Restoring Division Example](images/non_restoring_example.png)
+📌 **Example Image**: 
+
+![Non-Restoring Division Example](images/non_restoring_example.png)
 
 ---
 
